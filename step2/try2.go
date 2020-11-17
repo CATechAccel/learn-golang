@@ -13,7 +13,7 @@ func main() {
 	}
 
 	//条件分岐にswitchを使用する場合
-	for i := 1; i <= 4; i += 1 {
+	for i := 1; i <= 4; i++ {
 		switch {
 		case i%2 == 1:
 			fmt.Printf("%d - 奇数\n", i)

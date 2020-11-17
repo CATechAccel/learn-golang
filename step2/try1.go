@@ -6,3 +6,5 @@ func main() {
 	msg := "hoge" + "fuga"
 	println(n, m, msg)
 }
+
+//300 400 hogefuga

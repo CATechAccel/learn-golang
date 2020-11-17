@@ -13,12 +13,12 @@ func main() {
 	rand.Seed(t)
 	s := rand.Intn(6) /*0-5の乱数*/
 
-	switch s + 1 {
-	case 1:
+	switch s {
+	case 0:
 		fmt.Println("凶")
-	case 2, 3:
+	case 1, 2:
 		fmt.Println("小吉")
-	case 4, 5:
+	case 3, 4:
 		fmt.Println("中吉")
 	default:
 		fmt.Println("大吉")

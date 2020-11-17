@@ -22,6 +22,5 @@ func main() {
 		fmt.Println("中吉")
 	default:
 		fmt.Println("大吉")
-
 	}
 }

@@ -18,9 +18,10 @@ func main() {
 		fmt.Println("凶")
 	case 2, 3:
 		fmt.Println("小吉")
-	case 4,5:
+	case 4, 5:
 		fmt.Println("中吉")
 	default:
 		fmt.Println("大吉")
+
 	}
 }

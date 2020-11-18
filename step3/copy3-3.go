@@ -21,4 +21,7 @@ func main() {
 	//要素の追加
 	ns1 = append(ns1, 6, 7)
 	fmt.Println(len(ns1)) //7
+	//要素の変更
+	ns1[0] = 10
+	fmt.Println(ns1[0:5]) //[10 2 3 4 5]
 }

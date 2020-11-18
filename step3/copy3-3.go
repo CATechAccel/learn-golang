@@ -23,5 +23,8 @@ func main() {
 	fmt.Println(len(ns1)) //7
 	//要素の変更
 	ns1[0] = 10
-	fmt.Println(ns1[0:5]) //[10 2 3 4 5]
+	fmt.Println(ns1[0:7]) //[10 2 3 4 5 6 7]
+	//要素の削除
+	ns1 = ns1[:1+copy(ns1[1:], ns1[3:])]
+	fmt.Println(ns1[0:7]) //[10 4 5 6 7 6 7]
 }

@@ -5,8 +5,7 @@ package main
 
 import (
 	"fmt"
-
-	"./greeting"
+	"try4-1/greeting"
 )
 
 func main() {

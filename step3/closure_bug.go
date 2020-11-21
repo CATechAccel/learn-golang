@@ -1,5 +1,8 @@
 package main
 
+//4.2関数　クロージャとよくあるバグ
+//https://docs.google.com/presentation/d/1VHRNg-qZH-3ngwHnK8tMIDYyTKn6pA3yp8dRLLNQeLA/edit#slide=id.g7dc1d6af71_0_226
+
 import "fmt"
 
 func main() {

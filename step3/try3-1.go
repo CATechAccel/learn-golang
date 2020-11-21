@@ -1,5 +1,8 @@
 package main
 
+//4.2関数　【try】奇数偶数判定関数
+//https://docs.google.com/presentation/d/1VHRNg-qZH-3ngwHnK8tMIDYyTKn6pA3yp8dRLLNQeLA/edit#slide=id.g4cbe4d134e_0_348
+
 import "fmt"
 
 //奇数偶数の判定関数

@@ -1,5 +1,10 @@
 package main
 
+//4.2関数　関数型
+//https://docs.google.com/presentation/d/1VHRNg-qZH-3ngwHnK8tMIDYyTKn6pA3yp8dRLLNQeLA/edit#slide=id.g4cbe4d134e_0_821
+//4.2関数　無名関数
+//https://docs.google.com/presentation/d/1VHRNg-qZH-3ngwHnK8tMIDYyTKn6pA3yp8dRLLNQeLA/edit#slide=id.g4cbe4d134e_0_816
+
 import "fmt"
 
 func print() string {

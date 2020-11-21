@@ -1,5 +1,11 @@
 package main
 
+//4.1型　配列
+//https://docs.google.com/presentation/d/1VHRNg-qZH-3ngwHnK8tMIDYyTKn6pA3yp8dRLLNQeLA/edit#slide=id.g4cbe4d134e_0_170
+
+//4.1型　スライス
+//https://docs.google.com/presentation/d/1VHRNg-qZH-3ngwHnK8tMIDYyTKn6pA3yp8dRLLNQeLA/edit#slide=id.g4cbe4d134e_0_191
+
 import "fmt"
 
 func main() {

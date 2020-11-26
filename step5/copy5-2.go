@@ -9,7 +9,7 @@ type Hoge struct {
 	N int
 }
 
-//埋め込み
+//埋め込み：型リテラル（配列型や構造体型、スライス型など）以外のtypeで定義した型や組み込み型、インターフェースは埋め込める
 type Fuga struct {
 	Hoge
 }

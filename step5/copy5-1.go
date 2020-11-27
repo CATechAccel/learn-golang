@@ -4,7 +4,7 @@ package main
 //https://docs.google.com/presentation/d/1vKdJHHx4A_sP_Ft-3cakQqfJRbKxWSI9axzQ-GHHOoY/edit#slide=id.g4f15a7d687_0_214
 
 /*
-インターフェースの実用に近い例は、step3/pointer_reciever_sample.goを参照
+インターフェースの実用に近い例は、 https://github.com/CATechAccel/learn-golang/blob/feat/8/FunctionAndType/step3/pointer_reciever_sample.go を参照
 */
 
 import "fmt"

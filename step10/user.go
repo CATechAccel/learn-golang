@@ -60,6 +60,7 @@ func createUser(response http.ResponseWriter, request *http.Request) {
 		return
 	}
 
+	//fmt.Fprint(response, "OK")に対してエラー処理を実装
 	if _, err := fmt.Fprint(response, "OK"); err != nil {
 		http.Error(response, err.Error(), http.StatusInternalServerError)
 	}

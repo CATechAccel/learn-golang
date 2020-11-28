@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+//init関数を利用して乱数の種の初期化は一回だけ行う
 func init() {
 	rand.Seed(time.Now().UnixNano())
 }

@@ -6,6 +6,13 @@ import (
 )
 
 //jsonタグを使用して、jsonのキーを指定できる
+/**JSON形式での出力例
+{
+	"name": "hoge",
+	"age": 22,
+	"birth": "2020年5月3日"
+}
+*/
 type user struct {
 	Name  string `json:"name"`
 	Age   int    `json:"age"`

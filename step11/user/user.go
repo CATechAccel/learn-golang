@@ -48,14 +48,14 @@ func GetUserSlice(w http.ResponseWriter, r *http.Request) {
 		panic(err)
 	}
 
-	var userslice []userData
+	var userSlice []userData
 	//rowsからの取り出しは、Next関数を利用する
 	for rows.Next() {
 		var u userData
 		if err := rows.Scan(&u.ID, &u.Name, &u.Age); err != nil {
 			panic(err)
 		}
-		userslice = append(userslice, u) //usersliceにuserDataを使いする処理
+		userSlice = append(userSlice, u) //userSliceにuserDataを追加する処理
 	}
 
 	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
